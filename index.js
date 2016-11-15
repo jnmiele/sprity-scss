@@ -1,4 +1,5 @@
 var fs = require('fs');
+var Promise = require('es6-promise');
 
 module.exports = {
 	process: function(layouts, opt, Handlebars) {

@@ -37,5 +37,8 @@
   "_id": "sprity-scss@1.0.0",
   "scripts": {},
   "_shasum": "38fa9a4fde0cbcf8b72898fb595bc682a52e9390",
-  "_from": "sprity-scss@latest"
+  "_from": "sprity-scss@latest",
+  "devDependencies": {
+    "es6-promise": "^4.0.5"
+  }
 }

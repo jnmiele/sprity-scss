@@ -20,6 +20,11 @@ If you want to use `sprity-scss` with the command line interface of `sprity` ins
 npm install sprity sprity-scss -g
 ```
 
+## Schoology Modifications
+
+* Removed `padding: 1px` style
+* Providing Promise from es6-promise, instead of relying on NodeJS's promise implementation
+
 ## Options
 
 * **style-type:** Eighter scss or sass. Defaults to scss.
