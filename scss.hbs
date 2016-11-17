@@ -31,7 +31,7 @@ $sprite-offset-y: (nth($sprite, 2) - $sprite-margin);
 background-position: $sprite-offset-x  $sprite-offset-y;
 }
 
-@mixin sprite($sprite, $display: inline-block) {
+@mixin sprite($sprite, $display: block) {
 @include sprite-position($sprite);
 background-repeat: no-repeat;
 display: $display;
